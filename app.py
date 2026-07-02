@@ -52,7 +52,7 @@ def analytics():
 
     # Step D: Send back the answer
     return jsonify({
-        "email": YOUR_EMAIL,
+        "email": "25f2007833@ds.study.iitm.ac.in",
         "total_events": total_events,
         "unique_users": len(unique_users),
         "revenue": round(revenue, 2),
